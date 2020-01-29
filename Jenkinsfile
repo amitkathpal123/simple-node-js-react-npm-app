@@ -1,8 +1,8 @@
 pipeline {
     agent {
         docker {
-            image 'node:6.3' 
-            args '-p 3000:3000' 
+            image 'node:alpine-6' 
+            args '-p 3001:3001' 
         }
     }
     stages {
